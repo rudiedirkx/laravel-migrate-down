@@ -1,0 +1,19 @@
+{
+    "name": "rdx/laravel-migrate-down",
+    "description": "Adds a migrate:down command with more control than migrate:rollback.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudie Dirkx",
+            "email": "github@hotblocks.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rdx\\migratedown\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
